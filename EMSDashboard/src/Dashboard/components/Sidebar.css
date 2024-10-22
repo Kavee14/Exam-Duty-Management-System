@@ -1,0 +1,55 @@
+.sidebar {
+    width: 250px;
+    height: 100vh; /* Full height of the viewport */
+    background-color: #FFFFFF; /* White background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-logo {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .sidebar-logo img {
+    width: 120px; /* Increase the logo size */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    flex-grow: 1; /* Makes the list take up remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: top; /* Center the menu items vertically */
+  }
+  
+  .sidebar-menu li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-menu a {
+    text-decoration: none;
+    font-size: 16px;
+    color: hsla(0, 0%, 30%, 1); /* Letter color as requested */
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Center the text */
+  }
+  
+  .sidebar-menu a:hover {
+    background-color: rgba(0, 85, 165, 0.1); /* Light blue hover effect */
+    color: hsla(0, 0%, 10%, 1); /* Darker on hover */
+  }
+  
+  .sidebar-menu a.active {
+    background-color: #00568D; /* Active link background */
+    color: white; /* Active link text color */
+  }
+  

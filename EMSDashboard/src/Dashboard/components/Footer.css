@@ -1,0 +1,35 @@
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #E8EBEDCC; /* or your desired background color */
+}
+
+.ems {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 100px; /* Adjust as necessary */
+  margin-right: 20px;
+  align-self: flex-start;
+}
+
+.contact-info h4 {
+  margin-bottom: 10px;
+}
+
+.footer-bottom-text {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0;
+  color:white;
+  background-color: #00568D; /* Footer bottom color */
+}
+
+.ems-info p, .contact-info p {
+  font-size: 14px; /* Font size already set to 14px */
+}
