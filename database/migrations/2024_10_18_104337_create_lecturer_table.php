@@ -13,6 +13,7 @@ class CreateLecturerTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('email')->unique();
+            $table->string('Password', 10);
             $table->timestamps();
         });
     }
